@@ -1,0 +1,10 @@
+'''
+>>> print testList
+  [1, 16, 64, 81]
+'''
+
+# Your Code Here
+def sqr(a):
+    return a*a
+        
+applyToEach(testList, sqr)
