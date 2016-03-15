@@ -1,0 +1,20 @@
+'''
+ Problem 4
+
+Write a Python function that returns True if aString is a palindrome (reads the same forwards or reversed) and False otherwise. Do not use Python's built-in reverse function or aString[::-1] to reverse strings.
+
+This function takes in a string and returns a boolean.
+
+def isPalindrome(aString):
+    '''
+    aString: a string
+    '''
+    # Your code here
+    
+
+'''
+def isPalindrome(s):
+    if len(s) <= 1:
+        return True
+    else:
+        return s[0] == s[-1] and isPalindrome(s[1:-1])
