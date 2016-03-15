@@ -1,0 +1,19 @@
+'''
+Introduction
+
+In this problem set, you will help some people find their forever friends! You have been tasked with creating a representation of both pet adoption centers and the pet adopters. By creating python classes to model both elements, you will be able to assign a score to each adopter relative to a certain adoption center. A higher score means a specific adopter is more likely to adopt a pet from a specific adoption center.
+OBJECTIVES
+
+The goal of this problem will be to learn classes, methods, and class inheritance. There are a lot of references on Python classes available (look for classes in the readings listed in the Reference Links section of the webpage); here is the official Python tutorial on classes, sections 9.1-9.7 (excepting 9.5.1) will be useful for this Problem Set.
+
+You will learn many facets of object-oriented programming, specifically:
+
+    Implementing new classes and their attributes.
+    Understanding class methods.
+    Understanding inheritance.
+    Telling the difference between a class and an instance of that class - recall that a class is a blueprint of an object, whilst an instance is a single, unique unit of a class.
+
+Please download this skeleton file, containing all the classes you will have to write: ps7skeleton.py
+
+A diagram of the classes and inheritance flow is as follows, and will be explained in further detail later in the problem set. 
+'''
