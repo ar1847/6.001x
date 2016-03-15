@@ -1,0 +1,29 @@
+'''
+Counting Bobs
+
+Assume s is a string of lower case characters.
+
+Write a program that prints the number of times the string 'bob' occurs in s. For example, if s = 'azcbobobegghakl', then your program should print
+
+Number of times bob occurs is: 2
+
+For problems such as these, do not include raw_input statements or define the variable s in any way. Our automated testing will provide a value of s for you - so the code you submit in the following box should assume s is already defined. If you are confused by this instruction, please review L4 Problems 10 and 11 before you begin this problem set.
+'''
+bnum = 0
+x=0
+def isbob(String):
+    if String == 'bob':
+        return True
+    else:
+        return False
+        
+  
+while x<len(s):
+ bob = isbob(s[x:x+3])
+ if bob == True:
+    bnum +=1
+    x+=1
+ else:
+    x+=1
+
+print('Number of bobs: ' + str(bnum))
