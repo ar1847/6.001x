@@ -1,0 +1,18 @@
+'''
+ESTIMATED TIME TO COMPLETE: 5 minutes
+
+2. Convert the following into code that uses a while loop.
+
+print Hello!
+print 10
+print 8
+print 6
+print 4
+print 2
+'''
+n=10
+print('Hello!')
+while n>0:
+    print n
+    n-=2
+    
